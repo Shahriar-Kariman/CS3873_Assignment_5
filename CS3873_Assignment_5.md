@@ -70,6 +70,33 @@ To be clear this question took an hour of my time and provided absolutly zero le
 
 ## Question 3 - Error Detection & Correction
 
-## Question 4 -
+### Part A
+
+No I can't be sure about which bits were flipped since there are 2 rows that have odd parity but no columns this means that there was a 2 bit error.
+
+### Part B
+
+So I can tell that there are odd parities in row 3 and column 2 which means the correct table would be as such with the corrected bit in bold:
+
+|       | Col 1 | Col 2 | Col 3 | Col 4 |
+|-------|-------|-------|-------|-------|
+| Row 1 |   1   |   0   |   1   |   0   |
+| Row 2 |   0   |   0   |   1   |   1   |
+| Row 3 |   1   | **0** |   1   |   0   |
+| Row 4 |   0   |   0   |   1   |   1   |
+
+## Question 4 - Message Between Bob and Alice
+
+### Part A - Message Integrity
+
+If Alice computes a hash from the message then sends both the hash with the message then Bob can recalculate the hash and compair his result with the hash he recived from Alice he should find that they are the same if there was no error.
+
+### Part B - Confidentiality
+
+Yes cause Alice has Bobs public key so she can just send her encrypted message. $\rightarrow \text{cipher} = \text{Encrypt}(\text{message}, E_B)$
+
+### Part C - Authentication
+
+I dont see how that would be possible given that Alice does not have a public-rpivate key pair anyone could have use Bob's public key to encrypt that message.
 
 ## Question 5 -
