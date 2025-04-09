@@ -12,7 +12,7 @@ The size of each address space is:
 - IPV4 $\rightarrow$ 4 bytes $=$ 32 bits
 - IPV6 $\rightarrow$ 16 bytes $=$ 128 bits
 
-## Question 2 - RSA Cryptogrophy
+## Question 2 - RSA Cryptography
 
 If $p = 17$ and $q = 11$ then:
 
@@ -66,7 +66,7 @@ $$
 \end{split}
 $$
 
-To be clear this question took an hour of my time and provided absolutly zero learning value.
+To be clear this question took an hour of my time and provided absolutely zero learning value.
 
 ## Question 3 - Error Detection & Correction
 
@@ -89,7 +89,7 @@ So I can tell that there are odd parities in row 3 and column 2 which means the 
 
 ### Part A - Message Integrity
 
-If Alice computes a hash from the message then sends both the hash with the message then Bob can recalculate the hash and compair his result with the hash he recived from Alice he should find that they are the same if there was no error.
+If Alice computes a hash from the message then sends both the hash with the message then Bob can recalculate the hash and compare his result with the hash he received from Alice he should find that they are the same if there was no error.
 
 ### Part B - Confidentiality
 
@@ -97,6 +97,9 @@ Yes cause Alice has Bobs public key so she can just send her encrypted message. 
 
 ### Part C - Authentication
 
-I dont see how that would be possible given that Alice does not have a public-rpivate key pair anyone could have use Bob's public key to encrypt that message.
+I don't see how that would be possible given that Alice does not have a public-rpivate key pair anyone could have use Bob's public key to encrypt that message.
 
-## Question 5 -
+## Question 5
+
+Unfortunately I do not have the time to complete this question.
+
